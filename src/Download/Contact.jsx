@@ -15,21 +15,21 @@ function Contact() {
 
         <div className="download-buttons mt-4">
 
-          <a href="#" className="mr-2">
+          <button type="button" className="btn mr-2">
             <img
               src="img/app-store-badge.svg"
               alt="Download on App Store"
               className="img-fluid"
             />
-          </a>
+          </button>
 
-          <a href="#">
+          <button type="button" className="btn">
             <img
               src="img/google-play-badge.svg"
               alt="Get it on Google Play"
               className="img-fluid"
             />
-          </a>
+          </button>
 
         </div>
 
